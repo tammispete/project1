@@ -1,0 +1,50 @@
+body {
+    background-color: #D3D3CE;
+  }
+
+h1 {
+    font-family: "Adamina", serif;
+    font-size: 42px;
+    letter-spacing: -6%;    
+}
+p{
+    font-family: "Spline", sans-serif;
+}
+
+#storage_place {
+    background-color: #A4A69C;
+    border: 2px solid #35403A;    
+    padding: 10px;
+    margin-top: 20px;
+    box-sizing: border-box; /* Ensure that padding and border are included in width calculation */
+    width: 348px; /* Subtract 100px from total width (50px for left border, 50px for right border) */
+    font-family: "Spline", sans-serif;
+    
+}
+#storage_place table tr {
+    background-color: #BFBFB8;
+}
+
+#storage_place table td {
+    background-color: #D3D3CE;
+}
+
+.button{    
+    border: 1px solid #000000;
+    border-radius: 6px;       
+}
+
+.input{
+    color: #444444;
+    font-size: 13px;
+    width: 180px;
+    height: 18px;
+    padding-left: 5px;
+    outline:none;   
+}
+#delNumber{
+    width: 50px;
+}
+
+
+
