@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSSstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <script src="javascriptforTodo.js"></script>
+</head>
+<body onload="showData();">
+    <h1>To do list</h1>
+    <p>
+    <label for="todo">What needs to be done?</label><br>    
+    <input type="text" id="todoItem" class="input"><span id="todoFeedback"></span><br>    
+    <button type="button" class="button" onclick="if(validateForm()) saveAndshowData()">Add a todo item</button>
+    </p>
+    <p>
+    <label for="delNumber">What row do you want to delete? </label>
+    <input type="number" id="delNumber" class="input">
+    <button type="button" class="button" onclick="deleteData()">Delete a item</button> <br>    
+    </p>
+
+    <div id="storage_place"></div>  <br>
+    <div id="rowCounter"></div> <div id="doneCounter"></div>
+    <div id="whatsLeft"></div>
+    <button type="button" class="button" onclick="clearDoneTasks()">CLEAR DONE TASKS</button>
+
+</body>
+</html>
